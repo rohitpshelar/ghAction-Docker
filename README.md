@@ -19,6 +19,7 @@ Java, Spring boot, Github Action and Docker integration
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 ```
+ - Add DOCKER_USERNAME in GitHub > Settings > Actions secrets and variables > Repository secrets > New
  - Create new  file as `Dockerfile.ci` ref -  [Dockerfile.ci](Dockerfile.ci)
 
  - Add below code to this file    
