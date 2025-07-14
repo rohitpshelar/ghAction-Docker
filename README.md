@@ -5,7 +5,7 @@ Java, Spring boot, Github Action and Docker integration
  - access Docker hub - https://hub.docker.com/repository/create?namespace=rohitpshelar
  - create repo - eg for this Project : ghAction-Docker
 
-- Add following to Docker config to action
+- Add following to Docker config to action (ref :  https://github.com/marketplace/actions/docker-build-push-action)
 
 
 ```   
