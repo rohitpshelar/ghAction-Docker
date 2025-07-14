@@ -1,5 +1,5 @@
 From openjdk:21
 EXPOSE 8080
 RUN mkdir /app
-COPY --from=build /home/gradle/src/build/libs/*.jar /app/ghAction-Docker.jar
+COPY build/libs/*.jar /app/ghAction-Docker.jar
 ENTRYPOINT ["java","-jar","/app/ghAction-Docker.jar"]
