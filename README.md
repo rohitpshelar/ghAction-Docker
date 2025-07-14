@@ -46,3 +46,5 @@ docker run -p 8080:8080 rohitpshelar/ghaction-docker
 ```
  - Just test it with :  http://localhost:8080/
 
+   ### Free Cloud deployment use https://railway.com/
+
